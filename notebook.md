@@ -1,10 +1,12 @@
 Logistics
+
 	August 29 - September 4
 		- Looked over class website
 		- Installed classes repository
 		
 	
 Theory
+
 	Sept 4 - 6
 		- Watch Introduction videos
 			-Course Motivation -Recomender systems
@@ -38,6 +40,7 @@ Theory
 		-
 	Dev  18 - 22
 Practice
+
 	Auguest 21 - 25
 		-Bought Raspery Pi
 	August 29 - September 4
@@ -75,6 +78,7 @@ Practice
 		-
 	Dev  18 - 22
 Writing
+
 	September 4 - 7
 		- Reviewed jabref
 		- takes notes for structure of paper 1
