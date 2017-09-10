@@ -3,6 +3,7 @@ Logistics
 	August 29 - September 4
 		- Looked over class website
 		- Installed classes repository
+		- Create accounts githib, futuresystems chameleon
 		
 	
 Theory
@@ -80,9 +81,9 @@ Practice
 Writing
 
 	September 4 - 7
+		- Chose topic paper 1
 		- Reviewed jabref
-		- takes notes for structure of paper 1
-		
+		- takes notes for structure of paper 1		
 	Sept 11 - 15
 		-
 	Sept 18 - 22
