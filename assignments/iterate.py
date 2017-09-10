@@ -1,10 +1,11 @@
 """Usage:
-    iterate.py [-h] [NUM] ...
+    iterate.py -n [NUM]
 
 Arguments:
   NUM        Number to iterate
 Options:
   -h --help  Shows these options
+  -n           Specify the number to iterate
 
 """
 from docopt import docopt
@@ -12,10 +13,6 @@ from docopt import docopt
 
 if __name__ == '__main__':
     args = docopt(__doc__)
-
-
-
-
 
 
 def iterate(n):
@@ -30,5 +27,5 @@ def iterate(n):
         else:
             print(i)
 
-n = int(args['NUM'][0])
+n = int(args['NUM'])
 iterate(n)
