@@ -9,7 +9,7 @@
 owner:
     hid: 336
     name: Jordan Simmons
-    url: https://github.com/bigdata-i523/hid336
+    url: https://github.com/bigdata-i523/hid336/
 ```
 
 # Paper 1
