@@ -12,7 +12,7 @@ Theory
 		- Watch Introduction videos
 			-Course Motivation -Recomender systems
 	Sept 11 - 15
-		-
+		- Covered eComerce and lifestyle lessons
 	Sept 18 - 22
 		-
 	Sept 25 - 29
@@ -85,7 +85,7 @@ Writing
 		- Reviewed jabref
 		- takes notes for structure of paper 1		
 	Sept 11 - 15
-		-
+		- 
 	Sept 18 - 22
 		-
 	Sept 25 - 29
