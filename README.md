@@ -17,10 +17,10 @@ owner:
 ```
 paper1:
    author: 
-   -Jordan Simmons
+   - Jordan Simmons
    hid:
    - 336
-   title: Big Data Analytics: Preditions Customer Needs
+   title: Big Data Analytics - Preditions Customer Needs
    abstract: This paper discusses recomender systems in eComerce
    url: https://github.com/bigdata-i523/hid335
    type: latex
@@ -35,7 +35,6 @@ Just use one type and delete the line with
 ```
 project:
    type: project
-   type: report
    author: 
    - Jordan Simmons
    pid:
