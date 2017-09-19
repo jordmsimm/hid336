@@ -9,7 +9,7 @@
 owner:
     hid: 336
     name: Jordan Simmons
-    url: https://github.com/bigdata-i523/hid336/
+    url: https://github.com/bigdata-i523/hid336
 ```
 
 # Paper 1
@@ -20,16 +20,16 @@ paper1:
    - Jordan Simmons
    hid:
    - 336
-   title: Big Data Analytics - Preditions Customer Needs
+   title: Big Data Analytics for the Preditions Customer Needs
    abstract: This paper discusses recomender systems in eComerce
-   url: https://github.com/bigdata-i523/hid335
+   url: https://github.com/bigdata-i523/hid336
    type: latex
    status: in progress
 ```
   
 # Project 
 
-We will assign new pids for you when we approve the project and reports   
+We will assign new pids for you when we approve the project and reports 
 Just use one type and delete the line with 
 
 ```
