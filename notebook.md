@@ -14,7 +14,7 @@ Theory
 	Sept 11 - 15
 		- Covered eComerce and lifestyle lessons
 	Sept 18 - 22
-		- Overview of data science - Data deluge in business
+		- Overview of data science lessons
 	Sept 25 - 29
 		-
 	Oct  2 - 6
@@ -54,6 +54,7 @@ Practice
 		-install and use cms
 	Sept 18 - 22
 		- research projects on rasperberry pi
+		- research python functions and classes 
 	Sept 25 - 29
 		-
 	Oct  2 - 6
