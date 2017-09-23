@@ -14,7 +14,7 @@ Theory
 	Sept 11 - 15
 		- Covered eComerce and lifestyle lessons
 	Sept 18 - 22
-		-
+		- Overview of data science lessons
 	Sept 25 - 29
 		-
 	Oct  2 - 6
@@ -50,9 +50,11 @@ Practice
 		-install virtual environemnts for python 2 and 3
 		-install virtula env on mac with python 2 and 3
 	Sept 11 - 15
-		-
+		- Do iterate assignment
+		-install and use cms
 	Sept 18 - 22
-		-
+		- research projects on rasperberry pi
+		- research python functions and classes 
 	Sept 25 - 29
 		-
 	Oct  2 - 6
@@ -85,9 +87,12 @@ Writing
 		- Reviewed jabref
 		- takes notes for structure of paper 1		
 	Sept 11 - 15
-		- 
+		- Install Jabref
+		- Install MacTex
 	Sept 18 - 22
-		-
+		- start original work papper 1
+		- outline for paper
+		- gather sources
 	Sept 25 - 29
 		-
 	Oct  2 - 6
