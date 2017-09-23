@@ -12,85 +12,22 @@
 \pagestyle{plain} % removes running headers
 
 \begin{document}
-\title{My great Big Dat Paper}
+\title{Big Data Analytics: Recommendation Systems on the Web}
 
 
-\author{Ben Trovato}
+\author{Jordan Simmons}
 \orcid{1234-5678-9012}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
+  \institution{Indiana University Bloomington}
 }
-\email{trovato@corporation.com}
-
-\author{G.K.M. Tobin}
-\affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
-}
-\email{webmaster@marysville-ohio.com}
-
-\author{Lars Th{\o}rv{\"a}ld}
-\affiliation{%
-  \institution{The Th{\o}rv{\"a}ld Group}
-  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
-  \city{Hekla} 
-  \country{Iceland}}
-\email{larst@affiliation.org}
-
-\author{Valerie B\'eranger}
-\affiliation{%
-  \institution{Inria Paris-Rocquencourt}
-  \city{Rocquencourt}
-  \country{France}
-}
-\author{Aparna Patel} 
-\affiliation{%
- \institution{Rajiv Gandhi University}
- \streetaddress{Rono-Hills}
- \city{Doimukh} 
- \state{Arunachal Pradesh}
- \country{India}}
-\author{Huifen Chan}
-\affiliation{%
-  \institution{Tsinghua University}
-  \streetaddress{30 Shuangqing Rd}
-  \city{Haidian Qu} 
-  \state{Beijing Shi}
-  \country{China}
-}
-
-\author{Charles Palmer}
-\affiliation{%
-  \institution{Palmer Research Laboratories}
-  \streetaddress{8600 Datapoint Drive}
-  \city{San Antonio}
-  \state{Texas} 
-  \postcode{78229}}
-\email{cpalmer@prl.com}
-
-\author{John Smith}
-\affiliation{\institution{The Th{\o}rv{\"a}ld Group}}
-\email{jsmith@affiliation.org}
-
-\author{Julius P.~Kumquat}
-\affiliation{\institution{The Kumquat Consortium}}
-\email{jpkumquat@consortium.net}
+\email{jomsimm@iu.edu}
 
 % The default list of authors is too long for headers}
 \renewcommand{\shortauthors}{B. Trovato et al.}
 
 
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings.
+This paper is an overview of Recommendation Systems in eCommerce.
 \end{abstract}
 
 \keywords{ACM proceedings, \LaTeX, text tagging}
@@ -100,16 +37,34 @@ ACM SIG Proceedings.
 
 \section{Introduction}
 
-The \textit{proceedings} are the records of a
-conference. ACM seeks to give these
-conference by-products a uniform, high-quality appearance.  To do
-this, ACM has some rigid requirements for the format of the
-proceedings documents: there is a specified format (balanced double
-columns), a specified set of fonts (Arial or Helvetica and Times
-Roman) in certain specified sizes, a specified live area, centered on
-the page, specified size of margins, specified column width and gutter
-size \cite{editor00}.
+Recommendation systems (RS) are leveraging big data in ways that create value both business and customer."The goal of a recommender system is to generate meaningful recommendations to a collection of users for items or products that might interest them" \cite{Melville2010}. RS is beneficial to businesses and customers by increasing metrics such as revenue and customer satisfaction \cite{Amatriain2006}. This paper aims to review RS and how it is being used in online platforms. Topics covered will include current RS techniques, companies currently using RS, and limitations.
 
+\section{Recommendation Techniques}
+Three common RS techniques would include content-based, collaborative, and hybrid recommendations \cite{Adomavicius2005}. The best technique depends on what recommendations need to be made, and the data used to make them. Many times, the hybrid approach is used because there can be limitations with other approaches \cite{Adomavicius2005}.
+\subsection{Content-Based}
+Content-Based RS recommend items to users by using descriptions of items and how the user is profiled based on their interest \cite {Pazzani2007}. Items are classified by different characteristics,attributes, or variables \cite{Pazzani2007}. Once items are classified, they can be grouped together based on their characteristics. Users are classified by information they provide to the system, and/or data collected by interacting with the system. 
+
+Content-Based RS are commonly seen on web applications and E-commerce sites. These types of systems can easily track and monitor almost all user activities. Usually a user has an account with the system, where information was voluntarily provided. With this data, users can be classified easier compared to a customer walking into a brick and mortar business.
+
+\subsection{Collaborative Filtering}
+"Collaborative Filtering is the process of filtering or evaluating items using the opin-
+ions of other people" \cite{Schafer2007}. This type of RS is commonly seen on systems where an item can be rated by a user. User rating are collected from a user, and then compared to other users. For example, person A buys items 1 and 2 and rates each item highly. Then, person B buys item 1 and rates it highly. Since person A and B both bought and rated item 1 highly, the system would likely recommend item 2 to person B. On the contrary, if person B gave item 1 a low rating, the system would not likely recommend item 2 to person B.
+
+
+\subsection{Hybrid}
+Hybrid RS combines two or more techniques and combines them to improve performance and reduce limitations that a single technique might have \cite{Burke2002}. In most cases, collaborative filtering is used with one or more of the other techniques to improve performance. There are many different approaches when combining techniques, but the details of each are out of the scope of this paper. The main point to take away is that RS is flexible with its techniques and implementation. The right hybrid technique will depend on the business case.
+
+An example of a hybrid approach would use collaborative filtering and the content-based methods described above. Items could be recommended to a user based on their interest using the content-based approach. Then from that group of recommended items, collaborative filtering could be used to filter items by ratings.
+
+\section{Modern Systems}
+Two well known companies that are currently using RS with their big data are Netflix and Amazon. These two companies use data from their large customer base to make predictions and recommendations. 
+\subsection{Netflix}
+Netflix is an internet based company that offers a variety of movies and television shows. Netflix had a problem of customers sorting through its large selection of movies and shows, and eventually losing interest which resulted in abandonment of their services \cite{Gomez-Uribe2015}. Over the years, Netflix has created and continually developed new RS algorithms which they claim saves them more than one billion dollars per year and a monthly turnover in the low double digits \cite{Gomez-Uribe2015}. Netflix is getting the most of their business with the help of RS.
+\subsection{Amazon}
+
+\section{Limitations to the Future}
+\subsection{Cross-Domain Recomendations}
+\subsection{Cold Start Problem}
 
 \begin{acks}
 
