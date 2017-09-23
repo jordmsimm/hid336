@@ -1,8 +1,3 @@
-# Comments
-
-* Mind the ```quotes and do not forget them```. Please do not delete the quotes, and keep the #
-* Remove all sections that you have not yet worked on. 
-
 # Owner
 
 ```
@@ -22,7 +17,7 @@ paper1:
    - 336
    title: Big Data Analytics: Recommendation Systems on the Web
    abstract: This paper is an overview of Recommendation Systems on the web.
-   url: https://github.com/bigdata-i523/hid336
+   url: https://github.com/bigdata-i523/hid336/paper1/report.tex
    type: latex
    status: in progress
 ```
