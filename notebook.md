@@ -1,3 +1,8 @@
+Location
+	Address: Madison, AL
+	Latitude: 34.736497
+	Longitude: -86.550293
+
 Logistics
 
 	August 29 - September 4
