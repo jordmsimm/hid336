@@ -15,7 +15,7 @@ paper1:
    - Jordan Simmons
    hid:
    - 336
-   title: Big Data Analytics: Recommendation Systems on the Web
+   title: Recommendation Systems on the Web
    abstract: This paper is an overview of Recommendation Systems on the web.
    url: https://github.com/bigdata-i523/hid336/paper1/report.tex
    type: latex
