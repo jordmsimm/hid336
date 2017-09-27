@@ -21,7 +21,7 @@ Theory
 	Sept 18 - 22
 		- Overview of data science lessons
 	Sept 25 - 29
-		-
+		- Web Search and Text Mining lessons.
 	Oct  2 - 6
 		-
 	Oct  9 - 13
