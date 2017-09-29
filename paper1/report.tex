@@ -30,14 +30,14 @@
 This paper is an overview of Recommendation Systems in eCommerce.
 \end{abstract}
 
-\keywords{Recommendation Systems}
+\keywords{Recommendation Systems, Big Data}
 
 
 \maketitle
 
 \section{Introduction}
 
-Recommendation systems (RS) are leveraging big data in ways that create value both business and customer."The goal of a recommender system is to generate meaningful recommendations to a collection of users for items or products that might interest them" \cite{Melville2010}. RS is beneficial to businesses and customers by increasing metrics such as revenue and customer satisfaction \cite{Amatriain2006}. This paper aims to review RS and how it is being used in online platforms. Topics covered will include current RS techniques, companies currently using RS, and limitations.
+Recommendation systems (RS) are leveraging big data in ways that create value for both businesses and customers."The goal of a recommender system is to generate meaningful recommendations to a collection of users for items or products that might interest them" \cite{Melville2010}. RS is beneficial to businesses and customers by increasing metrics such as revenue and customer satisfaction \cite{Amatriain2006}. This paper aims to review RS and how it is being used in online platforms. Topics covered will include current RS techniques, companies currently using RS, and limitations.
 
 \section{Recommendation Techniques}
 Three common RS techniques would include content-based, collaborative, and hybrid recommendations \cite{Adomavicius2005}. The best technique depends on what recommendations need to be made, and the data used to make them. Many times, the hybrid approach is used because there can be limitations with other approaches \cite{Adomavicius2005}.
@@ -61,10 +61,22 @@ Two well known companies that are currently using RS with their big data are Net
 \subsection{Netflix}
 Netflix is an internet based company that offers a variety of movies and television shows. Netflix had a problem of customers sorting through its large selection of movies and shows, and eventually losing interest which resulted in abandonment of their services \cite{Gomez-Uribe2015}. Over the years, Netflix has created and continually developed new RS algorithms which they claim saves them more than one billion dollars per year and a monthly turnover in the low double digits \cite{Gomez-Uribe2015}. Netflix is getting the most of their business with the help of RS.
 \subsection{Amazon}
+Amazon is an online store that sell a large variety of products. Amazons RS provides recommendations for millions of customers from a catalog that has millions of products. \cite{Smith2017}. Instead of comparing customers to customers, amazon uses an item-based collaborative filtering approach. This process finds items that were bought together with unusually high frequencies, and uses these relationships to recommend products to customers based on what they have purchased in the past \cite{Smith2017}. With this algorithm, Amazon is providing a unique experience to every customer and helping them find products they may not have found. Since the initial launch of this algorithm, it has "been tweaked to help people find videos to watch or news to read, been challenged by other algorithms and other techniques, and been adapted to improve diversity and discovery, recency, time-sensitive or sequential items, and many other problems. " \cite{Smith2017mith2017}
 
-\section{Limitations to the Future}
-\subsection{Cross-Domain Recomendations}
-\subsection{Cold Start Problem}
+\section{Challenges and Limitations}
+As with most technologies, RS has its challenges and limitations. These challenges and limitations will be discussed in the next sections.
+
+
+\subsection{Limitations}
+With complex systems, there can be many situations that cause issues that limit full capabilities of that system. Specifically, in RS, some of these limitations include cold start problems,data sparsity, limited content analysis, and latency problems \cite{Khusro2016}. These limitations seem to be more data related rather than the actual techniques and approaches of the technology being used to analyze that data. When there is no data for a new customer, it is hard for RS to recommend anything to this person. The system has no data on the users activities or what interests that user has.When a new item is added to a system, there are no reviews and no data collected with the interaction of user for this particular item. Of course, data collection and time would help alleviate these certain situations, but there may other ways to help with data caused problems.
+
+\subsection{Cross-Domain Recommendations}
+Cross-Domain recommendations aim to "leverage all the available user data provided in various systems and
+domains, in order to generate more encompassing user models and better recommendations" \cite{Cantador2015}.
+Every day the amount of data being collected increases. This data is being collected from different sources.
+Cross-Domain RS could use data from different sources to perhaps makes up for some of the data caused
+problems. 
+
 
 \begin{acks}
 
