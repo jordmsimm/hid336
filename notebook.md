@@ -50,16 +50,16 @@ Practice
 	Auguest 21 - 25
 		-Bought Raspery Pi
 	August 29 - September 4
-		-learn about virtual environments 
-		-install virtual box and ubuntu 
-		-install virtual environemnts for python 2 and 3
-		-install virtula env on mac with python 2 and 3
+		- Learn about virtual environments 
+		- Install virtual box and ubuntu 
+		- Install virtual environemnts for python 2 and 3
+		- Install virtula env on mac with python 2 and 3
 	Sept 11 - 15
 		- Do iterate assignment
-		-install and use cms
+		- Install and use cms
 	Sept 18 - 22
-		- research projects on rasperberry pi
-		- research python functions and classes 
+		- Research projects on rasperberry pi
+		- Research python functions and classes 
 	Sept 25 - 29
 		-
 	Oct  2 - 6
@@ -90,16 +90,17 @@ Writing
 	September 4 - 7
 		- Chose topic paper 1
 		- Reviewed jabref
-		- takes notes for structure of paper 1		
+		- Tooks notes for structure of paper 1		
 	Sept 11 - 15
 		- Install Jabref
 		- Install MacTex
 	Sept 18 - 22
-		- start original work papper 1
-		- outline for paper
-		- gather sources
+		- Start original work papper 1
+		- Outline for paper
+		- Gathered sources
 	Sept 25 - 29
-		-
+		- Gathered more sources
+		- Wrote content 
 	Oct  2 - 6
 		-
 	Oct  9 - 13
