@@ -20,6 +20,7 @@ paper1:
    url: https://github.com/bigdata-i523/hid336/paper1/report.tex
    type: latex
    status: in progress
+   chapter: Media
 ```
   
 
