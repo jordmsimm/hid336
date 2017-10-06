@@ -23,7 +23,8 @@ Theory
 	Sept 25 - 29
 		- Web Search and Text Mining lessons.
 	Oct  2 - 6
-		-
+		- Finished web Search and Text Mining lessons.
+		- Started Big Data use Cases lesson
 	Oct  9 - 13
 		-
 	Oct  16 - 20
@@ -61,9 +62,9 @@ Practice
 		- Research projects on rasperberry pi
 		- Research python functions and classes 
 	Sept 25 - 29
-		-
+		- No time for practive
 	Oct  2 - 6
-		-
+		- Practive getting data through api
 	Oct  9 - 13
 		-
 	Oct  16 - 20
@@ -102,7 +103,7 @@ Writing
 		- Gathered more sources
 		- Wrote content 
 	Oct  2 - 6
-		-
+		- Made final adjustments to paper 1
 	Oct  9 - 13
 		-
 	Oct  16 - 20
