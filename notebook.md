@@ -26,7 +26,8 @@ Theory
 		- Finished web Search and Text Mining lessons.
 		- Started Big Data use Cases lesson
 	Oct  9 - 13
-		-
+		- Finish Big Data use Cases lessons
+		- Start Sensors lessons
 	Oct  16 - 20
 		-
 	Oct  23 - 27
@@ -105,7 +106,7 @@ Writing
 	Oct  2 - 6
 		- Made final adjustments to paper 1
 	Oct  9 - 13
-		-
+		- Write review for paper 1
 	Oct  16 - 20
 		-
 	Oct  23 - 27
