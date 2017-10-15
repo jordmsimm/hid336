@@ -1,0 +1,20 @@
+---
+owner:
+    hid: 336
+    name: Jordan Simmons
+    url: https://github.com/bigdata-i523/hid336
+paper1:
+    abstract: "Recommendation Systems are being used all over the web. There are different\
+        \ popular techniques that are being used in modern systems. Some of the larger\
+        \ well know companies are using this technology very well. This material is\
+        \ an overview of some techniques, state of the art systems, and challenges\
+        \ and limitations of Recommendation Systems. \n"
+    author:
+        - Jordan Simmons
+    chapter: Media
+    hid:
+        - 336
+    status: 100%
+    title: Recommendation Systems on the Web
+    type: latex
+    url: https://github.com/bigdata-i523/hid336/paper1/report.tex
