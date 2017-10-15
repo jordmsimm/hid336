@@ -20,14 +20,14 @@
 \affiliation{%
   \institution{Indiana University Bloomington}
 }
-\email{jomsimm@iu.edu}
+\email{jomsimm@iu. edu}
 
 % The default list of authors is too long for headers}
-\renewcommand{\shortauthors}{B. Trovato et al.}
+\renewcommand{\shortauthors}{B. Trovato et al. }
 
 
 \begin{abstract}
-Recommendation Systems are being used all over the web. There are different popular techniques that are being used in modern systems. Some of the larger well know companies are using this technology very well. This material is an overview of some techniques, state of the art systems, and challenges and limitations of Recommendation Systems.
+Recommendation Systems are being used all over the web. There are different popular techniques that are being used in modern systems. Some of the larger well know companies are using this technology very well. To better understand Recommendation Systems, we provide an overview of some techniques, state of the art systems, and challenges and limitations of Recommendation Systems. 
 \end{abstract}
 
 \keywords{i523, hid336, Recommendation Systems, Big Data}
@@ -37,47 +37,47 @@ Recommendation Systems are being used all over the web. There are different popu
 
 \section{Introduction}
 
-Recommendation systems (RS)  leverage big data in order to create value for both businesses and customers.``The goal of a recommender system is to generate meaningful recommendations to a collection of users for items or products that might interest them.'' \cite{Melville2010}. RS are effective for a variety of industries and products which can range from  a product in a store, a news article on a site, or a search query. RS is beneficial to businesses and customers by increasing metrics such as revenue and customer satisfaction \cite{Amatriain2006}. Many online platforms are starting to use RS to analyze their data. In order to gain a better understanding of RS, general analysis of modern techniques, companies currently using RS, and challenges and limitations within the field will be covered.
+Recommendation systems (RS)  leverage big data in order to create value for both businesses and customers. RS can be understood as systems that ``generate meaningful recommendations to a collection of users for items or products that might interest them. '' \cite{Melville2010}. RS are effective for a variety of industries and products which can range from  a product in a store, a news article on a site, or a search query. RS is beneficial to businesses and customers by increasing metrics such as revenue and customer satisfaction \cite{Amatriain2006}. Many online platforms are starting to use RS to analyze their data. In order to gain a better understanding of RS, general analysis of modern techniques, companies currently using RS, and challenges and limitations within the field will be covered. 
 
 \section{Recommendation Techniques}
 Three common RS techniques would include content-based, collaborative, and hybrid recommendations \cite{Adomavicius2005}. Other techniques exist, but these three are the most widely used today. In order to
-determine which technique is best depends on the recommendations to be made, and the data used to make them.
+determine which technique is best depends on the recommendations to be made, and the data used to make them. 
 Many times, the hybrid approach is used because there can be limitations with other approaches
 \cite{Adomavicius2005}. Overall, it is best to understand a little bit about each technique before choosing
 which is best. 
 
 
 \subsection{Content-Based}
-Content-Based RS recommend items to users by using descriptions of items and how the user is profiled based on
-their interest \cite {Pazzani2007}. Items are classified by different characteristics,attributes, or variables
+Content-based RS recommend items to users by using descriptions of items and how the user is profiled based on
+their interest \cite {Pazzani2007}. Items are classified by different characteristics, attributes, or variables
 \cite{Pazzani2007}. Once items are classified, they can be grouped together based on the classifications. Users
 are classified by data they provide to the system, and/or the data collected by interacting with the system. 
 
-Content-Based RS are commonly seen on web applications and E-commerce sites. These types of systems readily
+Content-based RS are commonly seen on web applications and E-commerce sites. These types of systems readily
 track and monitor almost all user activities. Typically a user has an account with the system, which is where
 data was voluntarily provided. With this data, users can be classified easier compared to a customer walking
-into a brick and mortar business.
+into a brick and mortar business. 
 
 \subsection{Collaborative Filtering}
-``Collaborative Filtering is the process of filtering or evaluating items using the opinions of other people''
+Collaborative filtering can be described as the ``process of filtering or evaluating items using the opinions of other people''
 \cite{Schafer2007}. This type of RS is commonly seen on systems where an item can be rated by a user. With this
 technique, user rating are collected and stored from a user for an item that they have used or purchased. The
 ratings from the user are then compared to other users that have rated the same item. For example, person A
 buys items 1 and 2 and rates each item highly. Then, person B buys item 1 and rates it highly. Since person A
 and B both bought and rated item 1 highly, the system would likely recommend item 2 to person B. On the
 contrary, if person B gave item 1 a low rating, the system would not likely recommend item 2 to person B. This
-concept uses the assumption that ``people with similar tastes will rate things similarly'' \cite{Schafer2007}.
-This assumption may not be true in all cases, but it is a good base for RS to start learning users interests,
+concept uses the assumption that ``people with similar tastes will rate things similarly'' \cite{Schafer2007}. 
+This assumption may not be true in all cases, but it is a good base for RS to start learning users interests, 
 and recommend items based on those interest. With this technique, the more ratings that the systems has
 collected per item, and the more ratings given by the user, the easier it is for that system to make
-recommendations to that specific user.
+recommendations to that specific user. 
 
 
 \subsection{Hybrid}
 Hybrid RS takes two or more techniques and combines them to improve performance and reduce limitations that a
 single technique might have \cite{Burke2002}. In most cases, collaborative filtering is used with one or more
 of the other techniques to improve performance. Other techniques that are used and not discussed include
-Demographic, Utility-Based, and Knowledge-based recommendations \cite{Burke2002}.The hybrid approach narrows
+demographic, utility-based, and knowledge-based recommendations \cite{Burke2002}. The hybrid approach narrows
 down items with one technique, and then uses another technique on that subset of items to make a more accurate
 recommendation. Determining the best hybrid system depends on the specific business case, and the data 
 used to make the recommendation. 
@@ -90,7 +90,7 @@ be user group B. The system would then find all item ratings from user group B a
 to person A. If there are any users in group B that have similar likes to person A, the system would likely
 recommend the baseball items to person A that person B has previously rated highly. This is a high-level
 example of how a hybrid RS would work. Real world examples are more complex than this example, and use large
-amounts of data.
+amounts of data. 
 
 
 \section{Modern Systems}
@@ -111,7 +111,7 @@ strategies to collect data from users which is the base of their RS. Data is col
 customized search, video ratings, continue watching feature, amount of time spent watching and other user
 activities \cite{Gomez-Uribe2015}. Using the data collected from these features, Netflix can recommend top
 rated, now trending, and videos based on user interest, which is very appealing to the user when there are so
-many selections to choose from.
+many selections to choose from. 
 
 \subsection{Amazon}
 Amazon is an online store that sell a large variety of products. Amazons RS provides recommendations for
@@ -120,9 +120,7 @@ customers to customers, amazon uses an item-based collaborative filtering approa
 that were bought together with unusually high frequencies, and uses these relationships to recommend products
 to customers based on what they have purchased in the past \cite{Smith2017}. With this algorithm, Amazon is
 providing a unique experience to every user and helping them find products they may not have found. Since the
-initial launch of this algorithm, it has ``been tweaked to help people find videos to watch or news to read,
-been challenged by other algorithms and other techniques, and been adapted to improve diversity and discovery,
-recency, time-sensitive or sequential items, and many other problems. '' \cite{Smith2017}
+initial launch of this algorithm, it has been adjusted to make it easier for people to find material, compared to other algorithms, and adapted to help solve many other problems.  \cite{Smith2017}
 
 \section{Challenges and Limitations}
 As with most technologies, RS has its challenges and limitations. It is hard to speak of this topic without
@@ -133,7 +131,7 @@ different variables to consider when answering this question.
 
 \subsection{Limitations}
 With complex systems, there can be many variables that cause issues that limit full capabilities of that
-system. Specifically, in RS, some of these limitations include cold start problems,data sparsity, limited
+system. Specifically, in RS, some of these limitations include cold start problems, data sparsity, limited
 content analysis, and latency problems \cite{Khusro2016}. These limitations seem to be more data related rather
 than the actual techniques and approaches of the technology being used to analyze that data. When there is no
 data for a new user, it is hard for RS to create suggestions for this user. The system has no data on the users
@@ -142,36 +140,36 @@ data collected with the interaction of user for this particular item. On the oth
 become redundant. At this point gathering more data will have limited gains. 
 
 \subsection{Cross-Domain Recommendations}
-Cross-Domain recommendations aim to ``leverage all the available user data provided in various systems and
-domains, in order to generate more encompassing user models and better recommendations'' \cite{Cantador2015}.
-Every day the amount of data being collected increases. This data is being collected from different sources.
+Cross-Domain RS aim to ``leverage all the available user data provided in various systems''  and
+domains'' which allows systems to ``generate more encompassing user models and better recommendations'' \cite{Cantador2015}. 
+Every day the amount of data being collected increases. This data is being collected from different sources. 
 Cross-Domain RS could use data from different sources, which could make up for some of the data caused
 problems. An example of a Cross-Domain recommendation would be Netflix using data from Facebook to help
 recommend movies to a new user. Using data from various systems like this would bring up new issues like
 privacy and security, but if systems started working together and sharing data there could be benefits for both
 systems. 
 
-Cross-Domain Recommendations help with domain specific data issues. Two different systems may have different
-ways of collecting and organizing data. If system 1 collects variables A ,B and C, and system 2 collects
+Cross-Domain recommendations help with domain specific data issues. Two different systems may have different
+ways of collecting and organizing data. If system 1 collects variables A , B and C, and system 2 collects
 variables A, B, and D, each system has information that the other system does not have. This is where sharing
 the data between systems could have benefits for both systems. In doing this, each system is not only
 benefiting from more data, but different and perhaps better data. This would also require using better
 algorithms to analyze the different sets of data. Depending on the system, more data  can be more beneficial
 than better algorithms. In terms of scale-ability, gathering more data that is different from what is currently
 being collected, and using better algorithms along with the different data could potentially maximize
-recommendations for that system.
+recommendations for that system. 
 
 \section{Conclusion}
 With a base understanding of RS, it is easy to see how this technology can be very beneficial in online
 platforms. RS has different techniques that can be used in a variety of online systems.  Many large companies
 are creating custom RS and are benefiting greatly from them. As the massive amount of data grows from day to
 day, the ways in which RS is used will continue to evolve. It will be interesting to see how Cross-Domain
-Recommendations are used in the future, and if companies start to adopt this concept of sharing data. Data
+recommendations are used in the future, and if companies start to adopt this concept of sharing data. Data
 being analyzed from various systems could unlock hidden information that a single system may not be capable of
 producing.  
 \begin{acks}
 
-  The author would like to thank course instructors for organizing setup of the latex format used in this paper.
+  The author would like to thank course instructors for organizing setup of the latex format. 
 
 \end{acks}
 
