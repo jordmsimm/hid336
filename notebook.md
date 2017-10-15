@@ -29,7 +29,7 @@ Theory
 		- Finish Big Data use Cases lessons
 		- Start Sensors lessons
 	Oct  16 - 20
-		-
+		- 
 	Oct  23 - 27
 		-
 	Oct  30 - Nov 3
@@ -67,7 +67,7 @@ Practice
 	Oct  2 - 6
 		- Practive getting data through api
 	Oct  9 - 13
-		-
+		- No Practice
 	Oct  16 - 20
 		-
 	Oct  23 - 27
@@ -108,7 +108,8 @@ Writing
 	Oct  9 - 13
 		- Write review for paper 1
 	Oct  16 - 20
-		-
+		- Fix issues in paper 1
+		- create folder structure paper 2
 	Oct  23 - 27
 		-
 	Oct  30 - Nov 3
