@@ -22,13 +22,21 @@ paper1:
 
 paper2:
     abstract: >
-         Big data in Cyber Defense. 
+         Computer security threats and attacks are constantly evolving. Everyday, 
+         hackers are creating new techniques to bypass
+         network security for the purpose of malicious attacks.
+         To keep up with the changing intrusion technologies, the technologies 
+         that defend these attacks need to constantly evolve also. Modern day
+         technologies use deep learning techniques to monitor 
+         network activity, and detect malicious code. We will
+         provide an overview of network security and modern technologies being 
+         used to protect computer systems and networks.
     author:
         - Jordan Simmons
     chapter: Media
     hid:
         - 336
     status: In Progress
-    title: Big data in Cyber Defense
+    title: Big Data Analysis for Computer Network Defense
     type: latex
 url: https://github.com/bigdata-i523/hid336/paper2/report.tex
