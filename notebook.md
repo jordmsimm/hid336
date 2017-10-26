@@ -32,7 +32,7 @@ Theory
 		- Finish sensors lessons
 		- Finish sports case study
 	Oct  23 - 27
-		-
+		- Finish Radar Lessons
 	Oct  30 - Nov 3
 		-
 	Nov  6 - 10
@@ -72,7 +72,7 @@ Practice
 	Oct  16 - 20
 		- No Practice
 	Oct  23 - 27
-		-
+		- Histogram Experiment
 	Oct  30 - Nov 3
 		-
 	Nov  6 - 10
@@ -113,7 +113,8 @@ Writing
 		- create folder structure paper 2
 		- Research for paper 2
 	Oct  23 - 27
-		-
+		- Worked on paper structure
+		- Researched topic, gather potential sources
 	Oct  30 - Nov 3
 		-
 	Nov  6 - 10
