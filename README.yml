@@ -15,7 +15,7 @@ paper1:
     chapter: Media
     hid:
         - 336
-    status: Oct 25 17
+    status: Oct 25 17 100%
     title: Recommendation Systems on the Web
     type: latex
     url: https://github.com/bigdata-i523/hid336/paper1/report.tex
